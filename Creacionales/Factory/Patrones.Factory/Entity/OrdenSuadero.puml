@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+scale 1.85
+class OrdenSuadero {
+    + PrepararTacos()
+    + CobrarOrden()
+    + EntregarOrden()
+}
+    
+
+@enduml

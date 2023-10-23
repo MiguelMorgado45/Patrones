@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# 
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creacionales", "Creacionales", "{288485F9-B71E-483D-A900-C0C514F74650}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factory", "Factory", "{76025D75-DA29-4386-8D1C-257968BB9FA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patrones.Factory", "Creacionales\Factory\Patrones.Factory\Patrones.Factory.csproj", "{F92D28D1-9B11-4D31-89B3-0BF787DC6875}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryMethod", "FactoryMethod", "{5A30A11D-9E4F-43E6-9424-C3A49979AB65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patrones.FactoryMethod", "Creacionales\FactoryMethod\Patrones.FactoryMethod\Patrones.FactoryMethod.csproj", "{F87E1430-7AFA-4F3B-82FD-880F7723886A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F92D28D1-9B11-4D31-89B3-0BF787DC6875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F92D28D1-9B11-4D31-89B3-0BF787DC6875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F92D28D1-9B11-4D31-89B3-0BF787DC6875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F92D28D1-9B11-4D31-89B3-0BF787DC6875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F87E1430-7AFA-4F3B-82FD-880F7723886A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F87E1430-7AFA-4F3B-82FD-880F7723886A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F87E1430-7AFA-4F3B-82FD-880F7723886A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F87E1430-7AFA-4F3B-82FD-880F7723886A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{76025D75-DA29-4386-8D1C-257968BB9FA2} = {288485F9-B71E-483D-A900-C0C514F74650}
+		{F92D28D1-9B11-4D31-89B3-0BF787DC6875} = {76025D75-DA29-4386-8D1C-257968BB9FA2}
+		{5A30A11D-9E4F-43E6-9424-C3A49979AB65} = {288485F9-B71E-483D-A900-C0C514F74650}
+		{F87E1430-7AFA-4F3B-82FD-880F7723886A} = {5A30A11D-9E4F-43E6-9424-C3A49979AB65}
+	EndGlobalSection
+EndGlobal
